@@ -2,7 +2,7 @@
 {% block content %}
   <h1>Car: {{ object.model }}</h1>
 
-  <h2>Manufacturer: {{ object.manufacturer.name }}</h2>
+  <h2>Manufacturer: {{ object.manufacturer.name }} ({{ object.manufacturer.country }})</h2>
 
   <h3>Drivers:</h3>
   <ul>
